@@ -1,0 +1,17 @@
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Application.deps.json
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Application.dll
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Application.pdb
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Domain.dll
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Persistence.dll
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Domain.pdb
+/Users/groz/Kaladin-2/Kaladin/Application/bin/Debug/net7.0/Persistence.pdb
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.dll
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/refint/Application.dll
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/Application.pdb
+/Users/groz/Kaladin-2/Kaladin/Application/obj/Debug/net7.0/ref/Application.dll

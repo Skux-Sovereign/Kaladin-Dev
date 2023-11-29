@@ -1,0 +1,12 @@
+/Users/groz/Kaladin-2/Kaladin/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/groz/Kaladin-2/Kaladin/Domain/bin/Debug/net7.0/Domain.dll
+/Users/groz/Kaladin-2/Kaladin/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.dll
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/groz/Kaladin-2/Kaladin/Domain/obj/Debug/net7.0/ref/Domain.dll
