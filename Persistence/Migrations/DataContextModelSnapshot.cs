@@ -59,6 +59,9 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("PickUpTime")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("Priority")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("SSN")
                         .HasColumnType("INTEGER");
 

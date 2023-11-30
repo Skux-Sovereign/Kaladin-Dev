@@ -11,7 +11,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231129223844_InitialCreate")]
+    [Migration("20231130030052_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -61,6 +61,9 @@ namespace Persistence.Migrations
 
                     b.Property<DateTime>("PickUpTime")
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("Priority")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("SSN")
                         .HasColumnType("INTEGER");

@@ -15,6 +15,7 @@ namespace Domain
         public int Age { get; set; }
         public char Sex { get; set; }
         public int SSN { get; set; }
+        public int Priority { get; set; }
         public string Height { get; set; }
         public int Weight { get; set; }
         public string Ethnicity { get; set; }

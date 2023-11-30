@@ -23,6 +23,7 @@ namespace Persistence.Migrations
                     Age = table.Column<int>(type: "INTEGER", nullable: false),
                     Sex = table.Column<char>(type: "TEXT", nullable: false),
                     SSN = table.Column<int>(type: "INTEGER", nullable: false),
+                    Priority = table.Column<int>(type: "INTEGER", nullable: false),
                     Height = table.Column<string>(type: "TEXT", nullable: true),
                     Weight = table.Column<int>(type: "INTEGER", nullable: false),
                     Ethnicity = table.Column<string>(type: "TEXT", nullable: true),
