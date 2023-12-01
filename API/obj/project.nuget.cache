@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dUIAMecYRuXkvA4N1dsK9TUonJ8pmDtxwPkiYL4+Pb/Dh9d3vSUcPlR+d/O/OBqk1wLa3N56Zv/icCvH99xgjg==",
+  "dgSpecHash": "qjAHAuz3eT11IMQlRxixKikLTU9M/ulG9RUMi71iEFBAbwlmHvxS8StuHDeCRg1ljsUqCddZIwUmfyn3edVQIg==",
   "success": true,
   "projectFilePath": "/Users/groz/Kaladin-2/Kaladin/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/groz/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/groz/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/groz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/groz/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/groz/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/groz/.nuget/packages/microsoft.aspnetcore.openapi/7.0.7/microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "/Users/groz/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/groz/.nuget/packages/microsoft.data.sqlite.core/7.0.7/microsoft.data.sqlite.core.7.0.7.nupkg.sha512",
     "/Users/groz/.nuget/packages/microsoft.entityframeworkcore/7.0.7/microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
     "/Users/groz/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.7/microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
