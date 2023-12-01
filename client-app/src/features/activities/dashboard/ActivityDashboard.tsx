@@ -24,6 +24,28 @@ export default function DataTable({activities} : Props) {
 
     }, [message]);
 
+    const handleCellClick = (params : any) => {
+        console.log(params.field);
+
+        if (params.field === '__check__') {
+          // message.id[0] ? setMessage({ id: []}) : setMessage({ id: [1]});
+
+          if (message.id[0]) {
+            setMessage({ id: []})
+          } else {
+            console.log(rows.length);
+            let tempArr = [];
+            for (var i = 1; i <= rows.length; i++) {
+              tempArr.push(i);
+            }
+            setMessage({ id: tempArr});
+            console.log(message.id);
+              // setMessage({ id: [...message.id, el] })
+            
+          }
+        }
+    }
+
     const handleEvent: GridEventListener<'rowClick'> = (
       params, // GridRowParams
       event, // MuiEvent<React.MouseEvent<HTMLElement>>
@@ -36,12 +58,13 @@ export default function DataTable({activities} : Props) {
         var index = message.id.indexOf(params.row.id);
         newArr.splice(index, 1);
         setMessage({ id: newArr });
-
+    
         console.log("duplicate found");
       } else {
         setMessage({ id: [...message.id, params.row.id] })
       }
     };
+
 
     const columns: GridColDef[] = [
         { field: 'id', headerName: 'ID', width: 70 },
@@ -113,6 +136,7 @@ export default function DataTable({activities} : Props) {
     '& .super-app.success': {color: 'black', backgroundColor: 'green'} }}>
       <DataGrid
         onRowClick={handleEvent}
+        onColumnHeaderClick={handleCellClick}
         rows={rows}
         columns={columns}
         initialState={{
