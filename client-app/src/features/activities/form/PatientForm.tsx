@@ -3,7 +3,7 @@ import { TextField, Button, Container, Stack } from '@mui/material';
 import { Link } from "react-router-dom"
  
  
-const RegisterForm = () => {
+const PatientForm = () => {
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
@@ -85,4 +85,4 @@ const RegisterForm = () => {
     )
 }
  
-export default RegisterForm;
+export default PatientForm;

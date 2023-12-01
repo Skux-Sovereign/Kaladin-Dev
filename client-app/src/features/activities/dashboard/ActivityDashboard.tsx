@@ -1,16 +1,47 @@
 import * as React from 'react';
-import { DataGrid, GridCellParams, GridColDef } from '@mui/x-data-grid';
+import { DataGrid, GridCellParams, GridColDef, GridEventListener } from '@mui/x-data-grid';
 import { Patient } from '../../../app/models/patient';
 import { format, parseISO } from 'date-fns';
 import { Box } from '@mui/material';
 import clsx from 'clsx';
 import BottomNavBar from '../../../app/layout/BottomNavBar';
+import { id } from 'date-fns/locale';
 
 interface Props {
     activities: Patient[]
 }
 
+const messageArr: Array<number> = [];
+
 export default function DataTable({activities} : Props) {
+
+    const [message, setMessage] = React.useState({
+      id: [] as number[]
+    });
+
+    React.useEffect(() => {
+      console.log(message.id);
+
+    }, [message]);
+
+    const handleEvent: GridEventListener<'rowClick'> = (
+      params, // GridRowParams
+      event, // MuiEvent<React.MouseEvent<HTMLElement>>
+      details, // GridCallbackDetails
+    ) => {
+
+
+      if (message.id.includes(params.row.id)) {
+        var newArr = message.id;
+        var index = message.id.indexOf(params.row.id);
+        newArr.splice(index, 1);
+        setMessage({ id: newArr });
+
+        console.log("duplicate found");
+      } else {
+        setMessage({ id: [...message.id, params.row.id] })
+      }
+    };
 
     const columns: GridColDef[] = [
         { field: 'id', headerName: 'ID', width: 70 },
@@ -81,6 +112,7 @@ export default function DataTable({activities} : Props) {
     '& .super-app.warning': {color: 'black', backgroundColor: 'rgba(235, 247, 124)'},
     '& .super-app.success': {color: 'black', backgroundColor: 'green'} }}>
       <DataGrid
+        onRowClick={handleEvent}
         rows={rows}
         columns={columns}
         initialState={{
@@ -91,7 +123,7 @@ export default function DataTable({activities} : Props) {
         pageSizeOptions={[5, 10]}
         checkboxSelection
       />
-      <BottomNavBar />       
+      {message.id.length >= 1 && <BottomNavBar />}      
     </Box>
   );
 }

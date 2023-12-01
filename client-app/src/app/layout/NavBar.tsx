@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { NavLink, Router, Link } from 'react-router-dom';
 
-const pages = ['New Patient', 'Pricing'];
+const pages = ['New Patient', 'Status'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function NavBar() {

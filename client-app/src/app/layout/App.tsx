@@ -5,9 +5,8 @@ import axios from 'axios'
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard'
 import NavBar from './NavBar';
 import { Patient } from '../models/patient';
-import BottomNavBar from './BottomNavBar';
-import { Outlet, Route, Routes } from 'react-router-dom';
-import RegisterForm from '../../features/activities/form/PatientForm';
+import { Route, Routes } from 'react-router-dom';
+import PatientForm from '../../features/activities/form/PatientForm';
 
 const darkTheme = createTheme({
   palette: {
@@ -32,7 +31,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<ActivityDashboard activities={activities} />} />
-          <Route path="/newPatientForm" element={<RegisterForm />} />
+          <Route path="/newPatientForm" element={<PatientForm />} />
         </Routes>
       </ThemeProvider>
     </>
